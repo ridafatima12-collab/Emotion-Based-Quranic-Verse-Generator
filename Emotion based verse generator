@@ -1,0 +1,52 @@
+# Ask the user how they feel today
+print("Tell us how do you feel today? Choose one option (1 to 7):")
+print("1. Anxiety / Worry")
+print("2. Sadness / Grief")
+print("3. Fear")
+print("4. Anger")
+print("5. Hopelessness / Despair")
+print("6. Guilt / Regret")
+print("7. Ingratitude / Lack of Contentment")
+
+# Get user's choice
+option = int(input("Enter your choice (1-7): "))
+
+# Provide Quranic verse based on the option
+if option == 1:
+    print("\nSurah Ar-Ra'd (13:28) from the Qur'an\n")
+    print("Arabic:\nأَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ")
+    print("\nTranslation (short meaning):\n“Surely in the remembrance of Allah do hearts find peace.”")
+
+elif option == 2:
+    print("\nSurah At-Tawbah (9:40)\n")
+    print("Arabic:\nلَا تَحْزَنْ إِنَّ اللَّهَ مَعَنَا")
+    print("\nTranslation:\n“Do not grieve; indeed Allah is with us.”")
+
+elif option == 3:
+    print("\nSurah Al-Baqarah (2:38)\n")
+    print("Arabic:\nفَمَن تَبِعَ هُدَايَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ")
+    print("\nTranslation:\n“Whoever follows My guidance will have no fear, nor will they grieve.”")
+
+elif option == 4:
+    print("\nSurah Aal-Imran (3:134)\n")
+    print("Arabic:\nوَسَارِعُوا إِلَىٰ مَغْفِرَةٍ مِّن رَّبِّكُمْ وَجَنَّةٍ عَرْضُهَا السَّمَاوَاتُ وَالْأَرْضُ أُعِدَّتْ لِلْمُتَّقِينَ\n"
+          "الَّذِينَ يُنفِقُونَ فِي السَّرَّاءِ وَالضَّرَّاءِ وَالْكَاظِمِينَ الْغَيْظَ وَالْعَافِينَ عَنِ النَّاسِ ۗ وَاللَّهُ يُحِبُّ الْمُحْسِنِينَ")
+    print("\nTranslation:\n“And hasten to forgiveness from your Lord and a Paradise as wide as the heavens and the earth, prepared for the righteous—those who spend in ease and hardship, who restrain their anger and pardon people; and Allah loves the doers of good.”")
+
+elif option == 5:
+    print("\nSurah Az-Zumar (39:53)\n")
+    print("Arabic:\nلَا تَقْنَطُوا مِن رَّحْمَةِ اللَّهِ")
+    print("\nTranslation:\n“Do not despair of the mercy of Allah.”")
+
+elif option == 6:
+    print("\nSurah Az-Zumar (39:53)\n")
+    print("Arabic:\nإِنَّ اللَّهَ يَغْفِرُ الذُّنُوبَ جَمِيعًا")
+    print("\nTranslation:\n“Indeed Allah forgives all sins.”")
+
+elif option == 7:
+    print("\nSurah Ibrahim (14:7)\n")
+    print("Arabic:\nلَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ")
+    print("\nTranslation:\n“If you are grateful, I will surely increase you.”")
+
+else:
+    print("Invalid number")
